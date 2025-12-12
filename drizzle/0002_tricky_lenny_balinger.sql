@@ -1,0 +1,2 @@
+ALTER TABLE `conversations` MODIFY COLUMN `personality` enum('programmer') NOT NULL DEFAULT 'programmer';--> statement-breakpoint
+ALTER TABLE `messages` MODIFY COLUMN `personality` enum('programmer') NOT NULL DEFAULT 'programmer';
